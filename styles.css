@@ -9,3 +9,173 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.nav-bar {
+  width: 100%;
+  height: 90px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  margin: 10px 0;
+}
+
+li {
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+}
+
+.app-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.avatar {
+  border-radius: 16px 16px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  display: flex;
+  margin: 100px 0 15px 0;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40vw;
+  height: 45px;
+  border: 1px solid #ddd4d4;
+  border-radius: 30px;
+}
+
+.search-icon {
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+}
+
+.mic-icon {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin: 15px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.button1 {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 0 20px;
+  background-color: #f8f9fa;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 2.5;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.button2 {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 0 20px;
+  background-color: #f8f9fa;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 2.5;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.info {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  margin: 15px;
+}
+
+.info-links {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 15px;
+  font-size: 13px;
+}
+
+.info-links a {
+  color: #1a0dab;
+  padding: 0 8px;
+}
+
+/* .info-links a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+} */
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #dadce0;
+  margin-top: 140px;
+}
+
+footer p {
+  padding: 0 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(192, 190, 190);
+}
